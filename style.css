@@ -1,0 +1,315 @@
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0pt;
+    margin: 0pt;
+}
+.header{
+    
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    box-shadow: 0px 2px black;
+}
+#logo{
+    width: 30%;
+    padding-left: 30px;
+}
+#tvs{
+    position: relative;
+    top: 24px;
+    padding-left: 47px;
+}
+.headersub{
+    width: 70%;
+    float: right;
+    color: #303030;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.icons{
+    color: #303030;
+}
+#country{
+    width: 150px;
+    height: 25px;
+}
+.book_vehicle{
+    
+    position: absolute;
+    top: 0px;
+    right: 70px;
+}
+.about{
+    width: 80%;
+    margin-top: 15px;
+    
+}
+.abouttext{
+    float: left;
+    padding-top: 0px;
+    color: #000;
+    padding-inline-end: 10px;
+    font-size: 17px;
+    font-family: Roboto",sans-serif;
+    
+}
+.cart{
+    display: flex;
+}
+.carticon{
+    padding-left: 40px;  
+}
+
+.section2_1{
+    display: flex;
+    width: 58%;
+    height: 120px;
+    background-color: #f12a00;
+    margin-top: -5px;
+    color:#ffff;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    padding-left: 96px;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 17px;
+    
+}
+.section3{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    
+    
+}
+.section3_1{
+    width: 29%;
+    
+  
+}
+.section3_2{
+    width: 29%;
+  
+}
+.section3_3{
+    width: 29%;
+  
+}
+.image{
+    position: relative;
+    width:100% 
+    
+    
+}
+.image:hover{
+
+    width: 400px;
+}
+.section3 h1{
+    
+    position: absolute;
+    color: #fff;
+    margin-top: -650px;
+    padding-left: 25px;
+    
+    
+}
+.section3 h3{
+    position: absolute;
+    color: #fff;
+    margin-top: -689px;
+    padding-left: 25px;
+    
+}
+.section4_1{
+    display: flex;
+    width: 58%;
+    height: 120px;
+    background-color: #183883;
+    margin-top: 10px;
+    color:#ffff;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    padding-left: 96px;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 17px;
+    
+}
+.section5{
+   
+    height: 712px;
+    background-color: #f4f4f4;
+}
+.section5_1{
+    display: flex;
+}
+.category{
+    font-size: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px;
+    margin-left: 73px;
+    margin-top: 40px;
+    background-color: #eee;
+}
+.category:hover {
+    background-color: cornflowerblue;
+}
+
+.modelcontainer{
+    width:35%;
+   
+}
+.model{
+    box-sizing: border-box;
+    padding: 17px;
+    margin:  10px;
+    margin-left: 74px;
+    display: flex;
+    background-color: #fff;
+    column-gap: 20px;
+    
+}
+.model h2{
+    color: #404040;
+    font-size: 20px;
+    line-height: 43px;
+    font-family: "Roboto",sans-serif;
+}
+.model h4{
+    color: #919191;
+}
+.modelcontainer :hover {
+   background-color: aliceblue;
+}
+.modelbigimage{
+    position: relative;
+    top: -538px;
+    float: right;
+    margin-right: 31px;
+    width: 60%;
+    height: 500px;
+    background-image: url(files/jupiterbg.jpg);
+    background-size: cover;
+}
+.modelbigimagesub{
+    display: flex;
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    height: 90px;
+    background-color: ivory;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modelbigimagesub a{
+    
+    box-sizing: content-box;
+    background-color: rgb(67, 0, 252);
+    padding: 20px;
+    color: lightcyan;
+    font-weight: 600;
+}
+.footer{
+    width: 100%;
+    height:300px;
+    background-color: lightgray;
+    color: oldlace;;
+}
+.footersub1{
+    position: absolute;
+    right: 0px;
+    width: 90%;
+    height: 250px;
+    background-color: mediumblue;
+}
+.footerapplink{
+    display: flex;
+    column-gap: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.adressblock{
+    margin-top: 24px;
+    width: 80%;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 27px;
+    
+}
+#contactus{
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: mintcream;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+#email{
+    font-size: 20px;
+    line-height: 67px;
+    color: oldlace;
+}
+#tvslogo{
+    position: absolute;
+    height: 100px;
+    width: 30%;
+    background-color: #fff;
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footnavbar{
+    
+    display: flex;
+    width: 90.1%;
+    position: relative;
+    bottom: 154px;
+    float: right;
+    column-gap: 30px;
+}   
+.footnavbar a{
+    color: #30323a;
+    font-weight: 600;
+}
+.footnavbar a:hover{
+    color: blue;
+}
+.footer2{
+    width: 100%;
+    height: 90px;
+    background-color: #f0f4ff;
+}
+.disclaimer{
+    
+    padding-top: 25px;
+    padding-left: 52px;
+    width: 33%;
+    height: 100%;
+    line-height: 26px;
+    color: #62656d;
+}
+.disclaimer a{
+    padding-inline-end: 9px;
+}
+.links{
+    display: flex;
+    width: 60%;
+    position: relative;
+    float: right;
+    bottom: 97px;
+    column-gap: 30px;
+}
+.link a:hover{
+    color: chocolate;
+
+}
